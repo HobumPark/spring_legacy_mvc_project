@@ -24,4 +24,3 @@
 * exec-maven-plugin 1.6.0
 * web.xml파일에 dtd web-app를 3.1로 변경
 
-프로젝트 생성 후 pom.xml에 라이브러리 추가만 되어 있는 빈 프로젝트
