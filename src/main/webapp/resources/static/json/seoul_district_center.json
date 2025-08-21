@@ -1,0 +1,125 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126.979070, 37.572950]
+      },
+      "properties": {
+        "name": "종로구"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126.997107, 37.563703]
+      },
+      "properties": {
+        "name": "중구"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126.990600, 37.532600]
+      },
+      "properties": {
+        "name": "용산구"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.036587, 37.563497]
+      },
+      "properties": {
+        "name": "성동구"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.072137, 37.537121]
+      },
+      "properties": {
+        "name": "광진구"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126.929844, 37.516195]
+      },
+      "properties": {
+        "name": "동대문구"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.027710, 37.511406]
+      },
+      "properties": {
+        "name": "중랑구"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126.869159, 37.519620]
+      },
+      "properties": {
+        "name": "강북구"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126.919632, 37.590370]
+      },
+      "properties": {
+        "name": "노원구"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126.829228, 37.612130]
+      },
+      "properties": {
+        "name": "도봉구"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126.948036, 37.654700]
+      },
+      "properties": {
+        "name": "강서구"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126.859085, 37.517091]
+      },
+      "properties": {
+        "name": "영등포구"
+      }
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+
+#register-wrap{
+    width:1200px;
+    height:auto;
+    background-color: palegoldenrod;
+    margin:0 auto;
+}
+#register-wrap>form>div{
+    margin-bottom: 2px;
+}
+
+#register-wrap>form>div>div{
+    float:left;
+    height:100%;
+}
+
+/*아이디 행*/
+#id-row{
+    width:100%;
+    height:200px;
+    background-color: palegreen;
+}
+#id-row>.input-area>span{
+    display:block;
+    width:100%;
+    height:45%;
+    background-color: pink;
+    margin-bottom: 1px;
+}
+#id-row button{
+    width:100px;
+    height:40px;
+    border-radius: 10px;
+}
+#id-row button:hover{
+    cursor: pointer;
+    color:#fff;
+    background-color: #333;
+}
+
+/*패스워드 행*/
+#password-row{
+    width:100%;
+    height:100px;
+    background-color: palegreen;
+}
+/*패스워드 확인 행*/
+#password-confirm-row{
+    width:100%;
+    height:100px;
+    background-color: palegreen;
+}
+/*이름 행*/
+#name-row{
+    width:100%;
+    height:100px;
+    background-color: palegreen;
+}
+/*전화번호 행*/
+#phone-row{
+    width:100%;
+    height:100px;
+    background-color: palegreen;
+}
+#phone-row input{
+    width:150px;
+}
+
+/*주소 행*/
+#address-row{
+    width:100%;
+    height:300px;
+    background-color: palegreen;
+}
+#address-row>.input-area>span{
+    display:block;
+    width:100%;
+    height:33%;
+    margin-bottom: 1px;
+    background-color: peachpuff;
+    padding:20px;
+    box-sizing: border-box;
+}
+#address-search>button{
+    width:100px;
+    height:40px;
+    border-radius: 10px;
+}
+#address-search>button:hover{
+    cursor: pointer;
+    color:#fff;
+    background-color: #333;    
+}
+#main-address>input{
+    width:80%;
+    height:40px;
+}
+#detail-address>input{
+    width:60%;
+    height:40px;
+}
+
+/*이메일 행*/
+#email-row{
+    width:100%;
+    height:100px;
+    background-color: palegreen;
+}
+#email-select{
+    width:100px;
+    height:40px;
+    border-radius: 10px;
+    padding-left:10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+/*문자 행*/
+#sms-row{
+    width:100%;
+    height:100px;
+    background-color: palegreen;
+}
+#sms-row input{
+    width:20px;
+    height:20px;
+    cursor: pointer;
+}
+
+/*버튼 행*/
+#btn-row{
+    width:100%;
+    height:100px;
+    background-color: palegreen;
+    text-align: center;
+}
+#btn-row>button{
+    width:100px;
+    height:40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#btn-row>button:hover{
+    color:#fff;
+    background-color: #333;
+}
+
+/*레이블-공통*/
+.label-area{
+    width:30%;
+    background-color: mediumaquamarine;
+    padding:20px;
+    box-sizing: border-box;
+}
+/*입력-공통*/
+.input-area{
+    width:70%;
+    background-color: mediumorchid;
+    padding:20px;
+    box-sizing: border-box;
+}   
+.input-area input{
+    width:200px;
+    height:40px;
+    border-radius: 10px;
+    padding-left:20px;
+    box-sizing: border-box;
+}

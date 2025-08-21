@@ -1,0 +1,59 @@
+#footer {
+	width:1200px;
+	height:100px;
+	background-color: #f5f5f5; /* 밝은 회색 */
+	margin:0 auto;
+}
+
+#footer > div {
+    float:left;
+    height:100%;
+}
+
+/* 로고 */
+#footer > #logo {
+    width:20%;
+    background-color: #4a90e2; /* 블루 계열 */
+}
+#logo > a {
+    display:block;
+    width:100%;
+    height:100%;
+}
+#logo > a > img {
+    width:100%;
+    height:100%;
+}
+
+/* 카피라이트 */
+#copyright {
+    width:60%;
+    background-color: #9e9e9e; /* 중간 회색 */
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+}
+
+/* SNS */
+#sns {
+    width:20%;
+    background-color: #eeeeee; /* 아주 연한 회색 */
+}
+#sns > ul {
+    position: relative;
+    left:10px;
+    top:10px;
+    text-align:center;
+}
+#sns > ul > li {
+    display:inline-block;
+    margin-right:10px;
+}
+#sns > ul > li > a {
+    display:block;
+    width:auto;
+    height:auto;
+    /*background-color: #6c63ff; */
+    border-radius: 8px;
+}

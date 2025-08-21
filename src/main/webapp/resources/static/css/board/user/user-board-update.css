@@ -1,0 +1,183 @@
+
+
+#user-board-update-wrap{
+	width:1200px;
+	height:auto;
+	background-color:aqua;
+	margin:0 auto;
+}
+/*글수정 - 제목*/
+#user-board-update{
+	width:1200px;
+	height:1350px;
+	background-color:aliceblue;
+	margin:0 auto;
+}
+#user-board-update>form{
+	width:100%;
+	height:100%;
+}
+
+#user-board-update-title{
+    width:1200px;
+	height:200px;
+	background-color:khaki;
+	color:#555;
+}
+#user-board-update-title>div{
+	width:100%;
+	height:30%;	
+}
+#user-board-update-title>div:nth-child(3){
+	height:40%;
+}
+
+/*글수정 - 제목 - 1행*/
+#user-board-update-title-01{
+	background-color: rosybrown;
+}
+#user-board-update-title-01>span{
+	float:left;
+	height:100%;
+	padding-top:15px;
+	padding-left:10px;
+	box-sizing: border-box;
+}
+#user-board-update-title-01>span:first-child{
+	width:20%;
+	background-color: olive;
+}
+#user-board-update-title-01>span:nth-child(2){
+	width:80%;
+	background-color: olivedrab;
+}
+#user-board-update-title-01>span:nth-child(2)>input{
+	width:80%;
+	height:80%;
+	border-radius: 5px;
+	background-color: #999;
+	border:1px solid #777;
+	padding-left:20px;
+	box-sizing: border-box;
+}
+
+/*글수정 - 제목 - 2행*/
+#user-board-update-title-02{
+	background-color: royalblue;
+}
+#user-board-update-title-02>span{
+	float:left;
+	height:100%;
+	padding-top:15px;
+	padding-left:10px;
+	box-sizing: border-box;
+}
+#user-board-update-title-02>span:first-child{
+	width:20%;
+	background-color: orange;
+}
+#user-board-update-title-02>span:nth-child(2){
+	width:30%;
+	background-color: orangered;
+}
+#user-board-update-title-02>span:nth-child(2)>input{
+	width:60%;
+	height:70%;
+	border-radius: 5px;
+	background-color: #999;
+	border:1px solid #777;
+	padding-left:20px;
+	box-sizing: border-box;
+}
+
+#user-board-update-title-02>span:nth-child(3){
+	width:20%;
+	background-color: orchid;
+}
+#user-board-update-title-02>span:nth-child(4){
+	width:30%;
+	background-color: oldlace;
+}
+/*글수정 - 제목 - 3행*/
+#user-board-update-title-03{
+	background-color: peachpuff;
+}
+#user-board-update-title-03>span{
+	float:left;
+	height:100%;
+	padding-top:30px;
+	padding-left:10px;
+	box-sizing: border-box;
+}
+#user-board-update-title-03>span:first-child{
+	width:20%;
+	background-color: mediumaquamarine;
+}
+#user-board-update-title-03>span:nth-child(2){
+	width:30%;
+	background-color: mediumorchid;
+}
+#user-board-update-title-03>span:nth-child(3){
+	width:20%;
+	background-color: mediumspringgreen;
+}
+#user-board-update-title-03>span:nth-child(4){
+	width:30%;
+	background-color: mediumslateblue;
+	padding-top:5px;
+	box-sizing: border-box;
+}
+#user-board-update-title-03>span:nth-child(4)>input{
+	width:60%;
+	height:50%;
+	border-radius: 5px;
+	background-color: #999;
+	border:1px solid #777;
+	padding-left:20px;
+	box-sizing: border-box;
+}
+
+/*글수정 - 내용*/
+#user-board-update-contents{
+    width:1200px;
+	height:600px;
+	background-color:lavenderblush;
+}
+
+/*글수정 - 파일첨부*/
+#file-attach-area{
+	width:1200px;
+	height:400px;
+	background-color:lightcoral;
+}
+/*버튼 영역*/
+#button-area{
+	width:1200px;
+	height:10%;
+	background-color:lawngreen;
+	text-align: center;
+	padding-top:20px;
+	box-sizing: border-box;
+}
+
+#button-area>button{
+	padding:10px;
+	border-radius: 5px;
+	border:none;
+	display:inline-block;
+}
+
+#button-area>button:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+#preview-btn{
+	background-color: darkolivegreen;
+}
+#update-btn{
+	background-color: #266ac4;;
+}
+#list-btn{
+	background-color: grey;
+}

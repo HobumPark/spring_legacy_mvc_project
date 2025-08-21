@@ -1,0 +1,200 @@
+
+
+#user-board-write-wrap{
+	width:1200px;
+	height:auto;
+	background-color:aqua;
+	margin:0 auto;
+}
+/*글쓰기 - 제목*/
+#user-board-write{
+	width:1200px;
+	height:1350px;
+	background-color:aliceblue;
+	margin:0 auto;
+}
+#user-board-write>form{
+	width:100%;
+	height:100%;
+}
+
+#user-board-write-title{
+    width:1200px;
+	height:200px;
+	background-color:khaki;
+	color:#555;
+}
+#user-board-write-title>div{
+	width:100%;
+	height:30%;	
+}
+#user-board-write-title>div:nth-child(3){
+	height:40%;
+}
+
+/*글쓰기 - 제목 - 1행*/
+#user-board-write-title-01{
+	background-color: rosybrown;
+}
+#user-board-write-title-01>span{
+	float:left;
+	height:100%;
+	padding-top:15px;
+	padding-left:10px;
+	box-sizing: border-box;
+}
+#user-board-write-title-01>span:first-child{
+	width:20%;
+	background-color: olive;
+}
+#user-board-write-title-01>span:nth-child(2){
+	width:80%;
+	background-color: olivedrab;
+}
+#user-board-write-title-01>span:nth-child(2)>input{
+	width:80%;
+	height:80%;
+	border-radius: 5px;
+	background-color: #999;
+	border:1px solid #777;
+	padding-left:20px;
+	box-sizing: border-box;
+}
+
+/*글쓰기 - 제목 - 2행*/
+#user-board-write-title-02{
+	background-color: royalblue;
+}
+#user-board-write-title-02>span{
+	float:left;
+	height:100%;
+	padding-top:15px;
+	padding-left:10px;
+	box-sizing: border-box;
+}
+#user-board-write-title-02>span:first-child{
+	width:20%;
+	background-color: orange;
+}
+#user-board-write-title-02>span:nth-child(2){
+	width:30%;
+	background-color: orangered;
+}
+#user-board-write-title-02>span:nth-child(2)>input{
+	width:50%;
+	height:70%;
+	border-radius: 5px;
+	background-color: #999;
+	border:1px solid #777;
+	padding-left:20px;
+	box-sizing: border-box;
+	
+	display:inline-block;
+}
+
+#user-board-write-title-02>span:nth-child(3){
+	width:20%;
+	background-color: orchid;
+}
+#user-board-write-title-02>span:nth-child(4){
+	width:30%;
+	background-color: oldlace;
+}
+/*글쓰기 - 제목 - 3행*/
+#user-board-write-title-03{
+	background-color: peachpuff;
+}
+#user-board-write-title-03>span{
+	float:left;
+	height:100%;
+	padding-top:30px;
+	padding-left:10px;
+	box-sizing: border-box;
+}
+#user-board-write-title-03>span:first-child{
+	width:20%;
+	background-color: mediumaquamarine;
+}
+#user-board-write-title-03>span:nth-child(2){
+	width:30%;
+	background-color: mediumorchid;
+}
+#user-board-write-title-03>span:nth-child(3){
+	width:20%;
+	background-color: mediumspringgreen;
+}
+#user-board-write-title-03>span:nth-child(4){
+	width:30%;
+	background-color: mediumslateblue;
+	padding-top:5px;
+	box-sizing: border-box;
+}
+#user-board-write-title-03>span:nth-child(4)>input{
+	width:60%;
+	height:50%;
+	border-radius: 5px;
+	background-color: #999;
+	border:1px solid #777;
+	padding-left:20px;
+	box-sizing: border-box;
+}
+
+/*글쓰기 - 내용*/
+#user-board-write-contents{
+    width:1200px;
+	height:600px;
+	background-color:lavenderblush;
+}
+
+/*글쓰기 - 파일첨부*/
+#file-attach-area{
+	width:1200px;
+	height:400px;
+	background-color:lightcoral;
+}
+/*파일 정보 영역*/
+#file-info{
+	width:95%;
+	height:auto;
+	margin:0 auto;
+	background-color: palegreen;
+}
+/*파일 원소*/
+.file-element{
+	width:100%;
+	height:50px;
+	background-color: paleturquoise;
+	margin:5px auto;
+}
+
+/*버튼 영역*/
+#button-area{
+	width:1200px;
+	height:10%;
+	background-color:lawngreen;
+	text-align: center;
+	padding-top:20px;
+	box-sizing: border-box;
+}
+
+#button-area>button{
+	padding:10px;
+	border-radius: 5px;
+	border:none;
+	display:inline-block;
+}
+
+#button-area>button:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+#preview-btn{
+	background-color: darkolivegreen;
+}
+#write-btn{
+	background-color: #266ac4;;
+}
+#list-btn{
+	background-color: grey;
+}

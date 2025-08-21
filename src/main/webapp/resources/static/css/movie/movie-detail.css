@@ -1,0 +1,86 @@
+#movie-main{
+	width:1200px;
+	height:auto;
+	background-color:aliceblue;
+	margin:0 auto;
+	padding-top:10px;
+	box-sizing:border-box;
+}
+#movie-main>h1{
+	width:95%;
+	margin:0 auto;
+	text-align:center;
+	font-size:30px;
+	background-color:#777;
+}
+#movie-detail {
+	display:block;
+    width:95%;
+    height:700px;
+	margin:0 auto;
+    background-color:#888;
+}
+#movie-detail>div{
+	float:left;
+	width:50%;
+	height:650px;
+	padding-top:10px;
+	box-sizing:border-box;
+}
+#movie-poster{
+	background-color:antiqute-white;
+}
+#movie-poster>img{
+	display:block;
+	width:90%;
+	height:600px;
+	margin:0px auto;
+	border-radius:10px;
+	cursor:pointer;
+}
+#movie-info{
+	background-color:antiqute-white;
+}
+#movie-info>div{
+	width:90%;
+	height:50px;
+	background-color:#fff;
+	margin-bottom:10px;
+	border-radius:10px;
+	text-align:center;
+	font-size:20px;
+}
+#movie-info>div:hover{
+	cursor:pointer;
+	background-color:#666;
+}
+
+
+#movie-actor{
+	display:block;
+	margin:0 auto;
+	width:95%;
+	height:auto;
+	background-color:#999;
+	text-align:center;
+	padding:20px;
+	box-sizing:border-box;
+}
+
+.actor{
+	display:inline-block;
+	width:200px;
+	height:70px;
+	border-radius:10px;
+	background-color:#fff;
+	margin:10px;
+	padding:10px;
+	box-sizing:border-box;
+	cursor:pointer;
+}
+.actor:hover{
+	background-color:#666;
+}
+.actor>span{
+	display:block;
+}

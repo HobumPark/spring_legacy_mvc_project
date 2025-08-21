@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ 
+<mapper namespace="resources.mapper.file.FileMapper">
+
+	<!-- 파일 정보 삽입 -->
+    <insert id="insertFile" parameterType="FileDto">
+        INSERT INTO file (
+            no, file_name, original_file_name, file_size, 
+            file_type, file_path
+        )
+        VALUES (
+            #{no}, #{fileName}, #{originalFileName}, #{fileSize},
+            #{fileType}, #{filePath}
+        )
+    </insert>
+    
+    <select id="selectFilePathByFileId" parameterType="int" resultType="FileDto">
+    	SELECT * FROM file where file_id=#{fileId}
+    </select>
+    
+    <select id="selectFileListByUserBoardNo" parameterType="int" resultType="FileDto">
+    	SELECT * FROM file where no=#{boardNo}
+    </select>
+    
+    <delete id="deleteFileByFileId" >
+    	delete from file where file_id=#{fileId}
+    </delete>
+    
+    <select id="selectFilePathByUserBoard" parameterType="int" resultType="FileDto">
+    	SELECT * FROM file where no=#{boardNo}
+    </select>
+    
+    <!-- 파일아이디로 글번호 알아내기 -->
+    <select id="selectUserBoardNoByFileId" parameterType="int" resultType="int">
+    	SELECT no FROM file where file_id=#{fileId}
+    </select>
+    
+    <!-- 글번호로 파일갯수 알아내기 -->
+    <select id="countFileListByUserBoardNo" parameterType="int" resultType="int">
+    	SELECT count(*) FROM file where no=#{boardNo}
+    </select>
+</mapper>

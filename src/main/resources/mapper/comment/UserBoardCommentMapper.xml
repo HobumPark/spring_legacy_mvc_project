@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ 
+<mapper namespace="resources.mapper.comment.UserBoardCommentMapper">
+
+<!-- 사용자 게시판 -->
+
+<!-- 댓글 목록 -->
+<select id="selectUserBoardCommentsByBoardNo" resultType="UserBoardCommentDto">
+        SELECT 
+		    *
+		FROM user_board_comment where board_no=#{userBoardNo}
+		ORDER BY comment_id DESC
+		LIMIT #{offset}, #{limit};
+</select>
+
+<!-- 댓글 삭제 -->
+<delete id="deleteUserBoardCommentByCommentId" parameterType="int">
+    DELETE FROM user_board_comment
+    WHERE comment_id = #{commentId}
+</delete>
+
+<!-- 특정 글 번호의 댓글 개수 -->
+<select id="countUserBoardCommentsByBoardNo" resultType="int">
+    SELECT COUNT(*) 
+    FROM user_board_comment 
+    WHERE board_no = #{userBoardNo}
+</select>
+
+</mapper>

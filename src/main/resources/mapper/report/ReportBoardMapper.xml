@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ 
+<mapper namespace="resources.mapper.report.ReportBoardMapper">
+
+    <!-- 게시글 신고 -->
+    <insert id="insertReport" parameterType="ReportBoardDto">
+	  INSERT INTO report_board (user_board_id, reporter_id, reason_code, reason_detail)
+	  VALUES (#{userBoardId}, #{reporterId}, #{reasonCode}, #{reasonDetail})
+	</insert>
+</mapper>

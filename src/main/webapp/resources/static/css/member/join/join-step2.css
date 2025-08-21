@@ -1,0 +1,179 @@
+
+#register-step2-wrap{
+    width:1200px;
+    height:auto;
+    background-color: palegoldenrod;
+    margin:0 auto;
+}
+/*목록 단계 */
+#register-step2-list{
+    width:100%;
+    height:200px;
+    background-color: palegreen;
+    text-align: center;
+}
+#register-step2-list>ul{
+    display:inline-block;
+}
+#register-step2-list>ul>li{
+    float:left;
+    margin-right:30px;
+}
+#register-step2-list>ul>li>img:first-child{
+    position: relative;
+    top:25px;
+    margin-right:10px;
+}
+#register-step2-list>ul>li>span:nth-child(2){
+    margin-right:10px;
+}
+#register-step2-list>ul>li>img:nth-child(3){
+    position: relative;
+    top:5px;
+}
+/*이용약관*/
+#register-step2-agree-term{
+    width:100%;
+    height:auto;
+    background-color: tan;
+}
+/*약관1*/
+#agree-term1{
+    width:100%;
+    height:350px;
+    background-color: teal;
+}
+#agree-term1-inner{
+    width:100%;
+    height:300px;
+    background-color: #666;
+    overflow-y: scroll;
+}
+#agree-term1-btn{
+    width:100%;
+    height:300px;
+    background-color:teal;
+    text-align: right;
+}
+/*약관2*/
+#agree-term2{
+    width:100%;
+    height:350px;
+    background-color: thistle;
+}
+#agree-term2-inner{
+    width:100%;
+    height:300px;
+    background-color: #666;
+    overflow-y: scroll;
+}
+#agree-term2-btn{
+    width:100%;
+    height:300px;
+    background-color:thistle;
+    text-align: right;
+}
+/*약관3*/
+#agree-term3{
+    width:100%;
+    height:350px;
+    background-color: tomato;
+}
+#agree-term3-inner{
+    width:100%;
+    height:300px;
+    background-color: #666;
+    overflow-y: scroll;
+}
+#agree-term3-btn{
+    width:100%;
+    height:50px;
+    background-color:tomato;
+    text-align: right;
+}
+/*약관4*/
+#agree-term4{
+    width:100%;
+    height:350px;
+    background-color: turquoise;
+}
+#agree-term4-inner{
+    width:100%;
+    height:300px;
+    background-color: #666;
+    overflow-y: scroll;
+}
+#agree-term4-btn{
+    width:100%;
+    height:50px;
+    background-color:turquoise;
+    text-align: right;
+}
+
+/*내부 약관 디자인*/
+.agree-term-inner {
+  width:95%;
+  margin:0 auto;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #444;
+  padding: 10px 15px;
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  max-height: 200px;
+  overflow-y: none;
+  margin-top: 10px;
+  
+  position:relative;
+  top:20px;
+}
+
+.agree-term-inner p {
+  margin-bottom: 22px;
+  color: #333;
+}
+
+.agree-term-inner ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #555;
+}
+
+.agree-term-inner ul li {
+  margin-bottom: 8px;
+}
+
+/*모든 약관 동의*/
+#all-check-area{
+    width:100%;
+    height:50px;
+    background-color:yellowgreen;
+    text-align: center;
+}
+/*동의, 비동의 영역*/
+#agree-btn-area{
+    width:100%;
+    height:50px;
+    background-color:olive;
+    text-align: center;
+}
+#agree-btn-area>button{
+	width:200px;
+    padding:5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+#agree-btn-area>button:hover{
+    opacity:0.7;
+}
+#agree-btn{
+    background-color: #266ac4;
+    border:1px solid #1557af;
+}
+#disagree-btn{
+    background-color: #f7f7f7;
+    border: 1px solid #d5d5d5
+}

@@ -1,0 +1,214 @@
+
+#wrap{
+	width:1200px;
+	height:auto;
+	background-color:aqua;
+	margin:0 auto;
+}
+
+#main{
+	width:1200px;
+	height:700px;
+	background-color:#ffffff;
+	margin:0 auto;
+}
+/*슬라이드*/
+#slide{
+	width:1200px;
+	height:500px;
+	/*background-color:chartreuse;*/
+	background-color:#ffffff;
+}
+.slide-element{
+	width:1200px;
+	height:400px;
+	background-color:#fff;
+	padding-top:20px;
+	box-sizing: border-box;
+}
+.slide-element>img{
+	display:block;
+	width:90%;
+	height:350px;
+	margin:0 auto;
+}
+
+/*탭 영역*/
+#tab{
+	width:1200px;
+	height:300px;
+	background-color:cornflowerblue;
+}
+
+#tab>div{
+	float:left;
+	width:50%;
+	height:100%;
+}
+/*게시판 탭*/
+#board-tab{
+	background-color: magenta;
+}
+#board-tab>div{
+	width:100%;
+}
+#board-tab-title{
+	width:95%;
+	height:20%;
+	margin:0 auto;
+	background-color: #ffffff;
+	text-align: center;
+	padding-top:10px;
+	box-sizing: border-box;
+	border-bottom:1px solid black;
+}	
+#board-tab-title>button{
+	width:150px;
+	height:40px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+#board-tab-title>button:hover{
+	background-color: #333;
+	color:#fff;
+}
+
+#board-tab-contents{
+	width:100%;
+	height:80%;
+}
+#board-tab-contents>div{
+	width:100%;
+	height:100%;
+	padding-top: 5px;
+	box-sizing: border-box;
+}
+#notice-board-contents{
+	background-color: #ffffff;;
+}
+#user-board-contents{
+	background-color: #ffffff;;
+	display:none;
+}
+
+.board-element{
+	width:95%;
+	height:40px;
+	background-color: #777777;
+	margin:0 auto;
+	margin-bottom: 5px;
+}
+.board-element>span{
+	float:left;
+	height:100%;
+	text-align: center;
+	padding-top:5px;
+	box-sizing: border-box;
+}
+.board-element>span:first-child{
+	width:50%;
+	/*background-color: papayawhip;*/
+}
+.board-element>span:first-child>a{
+	display:block;
+	width:100%;
+	height:95%;
+	/*background-color: powderblue;*/
+}
+.board-element>span:nth-child(2){
+	width:25%;
+	/*background-color: peru;*/
+}
+.board-element>span:nth-child(3){
+	width:25%;
+	/*background-color: plum;*/
+}
+
+/*콘텐츠 탭*/
+#contents-tab{
+	/*background-color: maroon;*/
+}
+
+#contents-tab>div{
+	width:100%;
+}
+#contents-tab-title{
+	width:95%;
+	height:20%;
+	margin:0 auto;
+	background-color: #ffffff;;
+	text-align: center;
+	padding-top:10px;
+	box-sizing: border-box;
+	border-bottom:1px solid black;
+}	
+#contents-tab-title>button{
+	width:150px;
+	height:40px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+#contents-tab-title>button:hover{
+	background-color: #333;
+	color:#fff;
+}
+#contents-tab-contents{
+	width:100%;
+	height:80%;
+}
+#contents-tab-contents>div{
+	width:100%;
+	height:100%;
+}
+/*나사 컨텐츠*/
+#nasa-contents{
+	background-color: #ffffff;;
+}
+#nasa-contents>h4{
+	width:100%;
+	height:20px;
+	padding-left:20px;
+	box-sizing: border-box;
+	background-color: #ffffff;;
+}
+#nasa-contents>img{
+	display:inline-block;
+	width:180px;
+	height:180px;
+	margin:10px;
+	border-radius: 10px;
+}
+/*명언 컨텐츠*/
+#quotes-contents{
+	background-color: #ffffff;;
+	display:none;
+	font-size:20px;
+}
+#quotes-contents>div{
+	padding:10px 20px;
+	box-sizing: border-box;
+}
+#author{
+	width:100%;
+	height:20%;
+	background-color: #ffffff;;
+	/*background-color: indianred;*/
+}
+#author-profile{
+	width:100%;
+	height:20%;
+	background-color: #ffffff;;
+	/*background-color: ivory;*/
+}
+#message{
+	width:100%;
+	height:40%;
+	background-color: #ffffff;;
+	/*background-color: rosybrown*/
+}
+
+
+.active{
+	background-color: #333;
+	color:#fff;
+}

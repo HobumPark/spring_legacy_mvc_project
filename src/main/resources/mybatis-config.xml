@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration 
+    PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+ 	<settings>
+        <!-- 카멜 케이스 매핑 -->       
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+    
+	<typeAliases>
+            <typeAlias type="com.hb.cms.dto.test.TestDto" alias="TestDto"/>
+            <typeAlias type="com.hb.cms.dto.board.UserBoardDto" alias="UserBoardDto"/>
+            <typeAlias type="com.hb.cms.dto.comment.UserBoardCommentDto" alias="UserBoardCommentDto"/>
+            <typeAlias type="com.hb.cms.dto.users.UserDto" alias="UserDto"/>
+            <typeAlias type="com.hb.cms.dto.file.FileDto" alias="FileDto"/>
+            <typeAlias type="com.hb.cms.dto.report.ReportBoardDto" alias="ReportBoardDto"/>
+            <typeAlias type="com.hb.cms.dto.email.EmailDto" alias="EmailDto"/>
+    </typeAliases>
+      
+</configuration>
+	

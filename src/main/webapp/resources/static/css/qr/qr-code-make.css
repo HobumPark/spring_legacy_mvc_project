@@ -1,0 +1,11 @@
+#qr-code-make-wrap {
+    max-width: 900px;
+    height:600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f0f4f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}

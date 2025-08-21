@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ 
+<mapper namespace="resources.mapper.board.UserBoardMapper">
+
+<!-- 사용자 게시판 -->
+
+<!-- 모두 조회 -->
+<select id="selectAllUserBoards" resultType="UserBoardDto">
+        SELECT 
+		    no,
+		    title,
+		    content,
+		    author,
+		    author_id,
+		    phone_number,
+		    DATE_FORMAT(created_date, '%Y-%m-%d') AS created_date,
+		    views,
+		    file_path,
+		    has_file
+		FROM user_board
+		ORDER BY no DESC
+		LIMIT #{offset}, #{limit};
+</select>
+
+<!-- 홈 사용자 게시글 목록 -->
+<select id="selectHomeUserBoards" resultType="UserBoardDto">
+        SELECT 
+		    title,
+		    author,
+		    DATE_FORMAT(created_date, '%Y-%m-%d') AS created_date,
+		FROM user_board
+		ORDER BY no DESC
+		LIMIT #{offset}, #{limit};
+</select>
+
+<!-- 전체 게시글 갯수 -->
+<select id="countAllUserBoards" resultType="int">
+    SELECT COUNT(*) FROM user_board;
+</select>
+
+<!-- 상세보기 -->
+<select id="selectUserBoardByNo" parameterType="int" resultType="UserBoardDto">
+        SELECT * FROM user_board where no=${no};
+</select>
+
+<!-- 조회수 증가 -->
+<update id="updateViewCount" parameterType="int">
+    UPDATE user_board SET views = views + 1 WHERE no = #{no}
+</update>
+
+<!-- 쓰기 -->
+<insert id="insertUserBoard" parameterType="UserBoardDto" useGeneratedKeys="true" keyProperty="no">
+        INSERT INTO user_board(title,content,author,author_id, phone_number, views,has_file) 
+        values(#{title}, #{content}, #{author},#{authorId}, #{phoneNumber}, #{views}, #{hasFile});
+</insert>
+
+<!-- 수정 -->
+<update id="updateUserBoard">
+        UPDATE user_board set title=#{title},content=#{content} where no=#{no};
+</update>
+
+<!-- 삭제 -->
+<delete id="deleteUserBoard">
+        DELETE FROM user_board where no=${no};
+</delete>
+
+<select id="selectLastUserBoardNo" resultType="java.lang.Integer">
+	SELECT no FROM user_board ORDER BY no DESC LIMIT 1;
+</select>
+
+<!-- 검색 -->
+<select id="searchUserBoards" resultType="UserBoardDto">
+        SELECT * 
+    FROM user_board 
+    WHERE title LIKE CONCAT('%', #{searchInput}, '%') 
+    ORDER BY no DESC 
+    LIMIT #{offset}, #{limit};
+</select>
+
+<!-- 검색결과 게시글 갯수 -->
+<select id="countSearchUserBoards" resultType="int">
+    SELECT COUNT(*) FROM user_board WHERE title LIKE CONCAT('%', #{searchInput}, '%');
+</select>
+
+
+<!-- 게시글 첨부여부 true 표시 -->
+<update id="updateUserBoardHasFile">
+        UPDATE user_board set has_file=1 where no=#{no};
+</update>
+
+<!-- 게시글 첨부여부 false 표시 -->
+<update id="updateUserBoardNotHasFile">
+        UPDATE user_board set has_file=0 where no=#{no};
+</update>
+
+</mapper>

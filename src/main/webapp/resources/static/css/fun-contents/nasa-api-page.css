@@ -1,0 +1,52 @@
+#nasa-wrap {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f0f4f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+#nasa-wrap>h2{
+	text-align:center;
+	padding:10px 0;
+	box-sizing:border-box;
+}
+
+#nasa-selector {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+#nasa-selector label {
+    font-weight: 600;
+    font-size: 14px;
+    color: #555;
+}
+
+#nasa-selector select {
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#nasa-selector button {
+    padding: 7px 16px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#nasa-selector button:hover {
+    back

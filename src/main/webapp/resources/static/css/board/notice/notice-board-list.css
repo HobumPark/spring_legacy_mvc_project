@@ -1,0 +1,14 @@
+
+#notice-board-list-wrap{
+	width:1200px;
+	height:auto;
+	background-color:aqua;
+	margin:0 auto;
+}
+
+#notice-board-list{
+	width:1200px;
+	height:500px;
+	background-color:aliceblue;
+	margin:0 auto;
+}

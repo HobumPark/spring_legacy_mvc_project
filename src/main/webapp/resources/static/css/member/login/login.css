@@ -1,0 +1,118 @@
+#login-wrap {
+    width: 1200px;
+    height: 500px;
+    background-color: #f9f9f9; /* 연한 회색 배경 */
+    margin: 0 auto;
+}
+
+#login-wrap > h1 {
+    width: 1200px;
+    height: 100px;
+    background-color: #ffffff; /* 흰색 */
+    padding-left: 100px;
+    padding-top:20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+}
+
+#login-wrap > form {
+    width: 1200px;
+    height: 400px;
+    background-color: #ffffff; /* 흰색 */
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+
+#login-wrap > form > div {
+    float: left;
+    height: 100%;
+}
+
+#login-img {
+    width: 30%;
+    background-color: #f0f0f0; /* 연한 회색 */
+    text-align: center;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+
+/* 로그인 입력 영역 */
+#input-area {
+    width: 60%;
+    background-color: #fafafa; /* 아주 연한 회색 */
+}
+
+#input-area > div {
+    width: 100%;
+}
+
+#input-area-1 {
+    height: 50%;
+    background-color: #ffffff; /* 흰색 */
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+#input-area-1 > input {
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    background-color: #f1f1f1; /* 입력창 배경 */
+    border: 1px solid #ccc;
+}
+
+#input-area-1 > button {
+    width: 150px;
+    height: 80px;
+    border-radius: 10px;
+    position: relative;
+    left: 360px;
+    top: -90px;
+    cursor: pointer;
+    background-color: #3f70bc;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+#input-area-1 > button:hover {
+    background-color: #2a4e8a;
+}
+
+#input-area-2 {
+    height: 25%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#input-area-2 > ul > li {
+    float: left;
+    margin-right: 10px;
+    list-style: none;
+}
+
+#input-area-2 > ul > li > a {
+    text-decoration: none;
+    color: #666;
+}
+
+#input-area-2 > ul > li > a:hover {
+    color: #3f70bc;
+}
+
+#input-area-3 {
+    height: 25%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#input-area-3 > span {
+    font-weight: bold;
+    color: #3f70bc;
+}
