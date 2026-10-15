@@ -24,14 +24,17 @@
 * exec-maven-plugin 1.6.0
 * web.xml파일에 dtd web-app를 3.1로 변경
 
-MVC구조
--controller (컨트롤러)
--dao (DAO - Data Access Object)
--dto (DTO - Data Transfer Object)
--service (서비스)
--mapper (매퍼 - SQL관련)
--root-context.xml (DB연결관련 MyBatis)
--views (VIEW - 뷰 , 화면 , JSP)
+MVC구조 <br>
+-controller (컨트롤러) <br>
+-dao (DAO - Data Access Object) <br>
+-dto (DTO - Data Transfer Object) <br>
+-service (서비스) <br>
+-mapper (매퍼 - SQL관련) <br>
+-root-context.xml (DB연결관련 MyBatis) <br>
+-views (VIEW - 뷰 , 화면 , JSP) <br>
+
+<img width="477" height="671" alt="image" src="https://github.com/user-attachments/assets/2807f0ac-422e-4da2-a996-ee7c8dfb2741" />
+<br>
 
 
 게시판
