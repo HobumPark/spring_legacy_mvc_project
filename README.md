@@ -36,7 +36,8 @@ MVC구조 <br>
 <img width="477" height="671" alt="image" src="https://github.com/user-attachments/assets/2807f0ac-422e-4da2-a996-ee7c8dfb2741" />
 <br>
 
-
+-----------------------------------------------------------------------------------------
+<br>
 게시판
 -DB
 <br>
@@ -53,9 +54,32 @@ MVC구조 <br>
 <img width="1117" height="873" alt="image" src="https://github.com/user-attachments/assets/c1f5723b-b4ad-4970-a8ea-845d9e6c0b7f" />
 
 -쓰기
+<br>
+<img width="1137" height="957" alt="image" src="https://github.com/user-attachments/assets/209bd343-00f5-4c41-929b-b989048c3a5b" />
 
 -수정
+<br>
+<img width="1113" height="973" alt="image" src="https://github.com/user-attachments/assets/25cf3aff-b947-4122-9d9b-e210b56547e7" />
 
 -삭제
+<br>
+<img width="1135" height="887" alt="image" src="https://github.com/user-attachments/assets/ecc5b590-e3bd-4853-90ce-c8a69de6220f" />
+
+-----------------------------------------------------------------------------------------
+<br>
+로그인
+<br>
+<img width="1167" height="719" alt="image" src="https://github.com/user-attachments/assets/77b99654-e741-4512-919e-80cc4310a61e" />
+
+로그인 페이지 이동
+<br>
+<img width="639" height="359" alt="image" src="https://github.com/user-attachments/assets/375415d6-cd23-44f2-ba7d-3a972a129baa" />
+
+
+로그인 처리
+<br>
+<img width="647" height="519" alt="image" src="https://github.com/user-attachments/assets/603efca0-d5b1-48fc-bfc7-983686998c35" />
+
+
 
 
