@@ -36,14 +36,17 @@ MVC구조
 
 게시판
 -DB
+<br>
 <img width="764" height="260" alt="image" src="https://github.com/user-attachments/assets/e8147027-6dc1-4f8e-9336-4a4e83a7693c" />
 <img width="1047" height="659" alt="image" src="https://github.com/user-attachments/assets/4eb9124b-029a-4515-a52a-923b04692b30" />
 
 -목록
+<br>
 <img width="1267" height="919" alt="image" src="https://github.com/user-attachments/assets/4a0f5f87-dd87-4c9c-8484-0f804b732eba" />
 
 
 -상세보기
+<br>
 <img width="1117" height="873" alt="image" src="https://github.com/user-attachments/assets/c1f5723b-b4ad-4970-a8ea-845d9e6c0b7f" />
 
 -쓰기
