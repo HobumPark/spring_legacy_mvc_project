@@ -24,3 +24,18 @@
 * exec-maven-plugin 1.6.0
 * web.xml파일에 dtd web-app를 3.1로 변경
 
+게시판
+-DB
+<img width="764" height="260" alt="image" src="https://github.com/user-attachments/assets/e8147027-6dc1-4f8e-9336-4a4e83a7693c" />
+
+-목록
+
+-상세보기
+
+-쓰기
+
+-수정
+
+-삭제
+
+
